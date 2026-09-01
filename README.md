@@ -191,4 +191,19 @@ Each category contains healthy and unhealthy leaf images.
 
 **Tejasri Malloju**
 
-If you found this project useful, consider giving the repository a ⭐.
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
+
+## 🔍 Prediction Workflow
+
+The system follows these steps to detect crop health:
+
+1. Capture the crop leaf image through a webcam.
+2. Preprocess the image using OpenCV and NumPy.
+3. Resize and normalize the image for MobileNetV2.
+4. Pass the processed image to the trained deep learning model.
+5. Predict the crop health category.
+6. Display the predicted class and confidence score.
+
+The trained MobileNetV2 model is used to perform image classification efficiently while maintaining a lightweight architecture suitable for real-time prediction.
