@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Trained model files
+*.h5
+*.keras
+
+# Datasets
+dataset/
+clean_dataset/
+preprocessed_dataset/
+training_dataset/
+training_dataset_10class/
+
+# Dataset analysis/output folders
+contact_sheets/
+duplicate_review/
+
+# Generated inspection images
+*_inspection.jpg
+*_Diseased_vs_Symptomised.jpg
+dataset_sample_grid.jpg
+dataset_75_image_inspection.jpg
+
+# Local/system files
+.DS_Store
+Thumbs.db
